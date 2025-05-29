@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .collage {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 900px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.fila {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.imagen {
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.pequeña {
+  width: 100px;
+  height: 100px;
+}
+
+.grande {
+  width: 125px;
+  height: 150px;
+}
+
+
+    </style>
+</head>
+<body>
+    <section class="collage">
+  <div class="fila">
+    <img src="imagenes/casa1.JPG" class="imagen pequeña" alt="Imagen 1">
+    <img src="imagenes/casa1.JPG" class="imagen pequeña" alt="Imagen 2">
+    <img src="imagenes/casa1.JPG" class="imagen pequeña" alt="Imagen 3">
+  </div>
+  <div class="fila">
+    <img src="imagenes/casa1.JPG" class="imagen pequeña" alt="Imagen 4">
+    <img src="imagenes/casa1.JPG" class="imagen grande" alt="Imagen Central">
+    <img src="imagenes/casa1.JPG" class="imagen pequeña" alt="Imagen 5">
+  </div>
+  <div class="fila">
+    <img src="imagenes/casa1.JPG" class="imagen pequeña" alt="Imagen 6">
+    <img src="imagenes/casa1.JPG" class="imagen pequeña" alt="Imagen 7">
+    <img src="imagenes/casa1.JPG" class="imagen pequeña" alt="Imagen 8">
+  </div>
+</section>
+
+    
+</body>
+</html>
